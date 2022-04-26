@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     }
     else if (argc == 2)
     {
-        printf("%s\n", argv[1]);
+        puts(argv[1]);
     }
     else
     {
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
                 max_string_id = i;
             }
         }
-        printf("%s\n", argv[max_string_id]);
+        puts(argv[max_string_id]);
     }
 
     return EXIT_SUCCESS;
