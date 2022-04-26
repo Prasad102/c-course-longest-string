@@ -5,7 +5,6 @@
 int main(int argc, char *argv[])
 {
     // printf("Number of input arguments: %d\n", argc);
-
     if (argc == 1)
     {
         puts("");
@@ -26,6 +25,5 @@ int main(int argc, char *argv[])
         }
         puts(argv[max_string_id]);
     }
-
     return EXIT_SUCCESS;
 }
