@@ -4,19 +4,14 @@
 
 int main(int argc, char *argv[])
 {
-    // printf("Number of input arguments: %d\n", argc);
     if (argc == 1)
     {
         puts("");
     }
-    else if (argc == 2)
-    {
-        puts(argv[1]);
-    }
     else
     {
         int max_string_id = 1;
-        for (int i = 2; i < argc; i++)
+        for (int i = 1; i < argc; i++)
         {
             if (strlen(argv[i]) > strlen(argv[max_string_id]))
             {
